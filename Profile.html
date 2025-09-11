@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neutral Profile</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Profile Section */
+    .profile-section {
+      padding: 60px 20px;
+      text-align: center;
+      background: #ffffff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #e0e0e0;
+      margin-bottom: 20px;
+    }
+
+    .profile-name {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #222;
+    }
+
+    .profile-role {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .profile-bio {
+      max-width: 600px;
+      margin: 0 auto 25px auto;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #555;
+      text-decoration: none;
+      font-size: 1.6rem;
+      transition: color 0.2s ease-in-out;
+    }
+
+    .social-icons a:hover {
+      color: #0d6efd;
+    }
+
+    /* Skills Section */
+    .skills-section {
+      background: #f9f9f9;
+      padding: 60px 20px;
+    }
+
+    .skills-section h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .skill-item {
+      margin-bottom: 20px;
+    }
+
+    .skill-name {
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    /* Education Section */
+    .education-section {
+      background: #ffffff;
+      padding: 60px 20px;
+    }
+
+    .education-section h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .education-item {
+      max-width: 800px;
+      margin: 0 auto 30px auto;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .education-title {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #222;
+    }
+
+    .education-school {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    .education-description {
+      margin-top: 10px;
+      color: #555;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Profile Section -->
+  <section class="profile-section">
+    <img src="Me.jpg" alt="Profile Image" class="profile-img">
+    <h1 class="profile-name">Aparajita Nag</h1>
+    <p class="profile-role">Student</p>
+    <p class="profile-bio">
+        I am a second year B.Tech CSE student studying at NSEC. 
+        I am passionate about music, chess, digital painting and love to learn new things to develop skillsets for this competitve world.
+    </p>
+    <div class="social-icons mb-3">
+      <a href="https://www.linkedin.com/in/aparajita-nag/" target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.instagram.com/aparajitanag06?igsh=cWVlaDIxejk4dGph" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://github.com/Aparajita1276" target="_blank"><i class="bi bi-github"></i></a>
+
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education-section">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="education-item">
+        <div class="education-title">Bachelor of Technology in Computer Science</div>
+        <div class="education-school">Netaji Subhash Engineering College — 2024 to 2028 </div>
+        <div class="education-description">
+          I am a 2nd year student now. I have participated in 2 hackathons till now. One is the SAP HackFest during the month of April and Internal SIH in the month of September. 
+          In both the hackathons, I lead the teams. I has good experience working with my team mates and learning new things. 
+          I developed skills in HTML, CSS, JavaScript, Bootstrap, C programming. I am still developing skills and is eager to learn.
+      </div>
+      <div class="education-item">
+        <div class="education-title">Secondary and Higher Secondary</div>
+        <div class="education-school">BDM International-2022 to 2024</div>
+        <div class="education-description">
+         I had been the house captain from my class. I learnt about Python and MySQL. My inquisitiveness for learning more about technology started from here. 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<!-- Projects Section -->
+<section class="projects-section">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="col-md-6 offset-md-3"> <!-- centers your single project -->
+        <div class="project-card">
+          <div class="project-title">Tic Tac Toe game</div>
+          <div class="project-description">
+            A small game made using Turtle graphics and different Python libraries
+          </div>
+          <a href="https://github.com/Aparajita1276/TicTacToe" target="_blank" class="project-link">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add this CSS to your <style> section -->
+<style>
+  .projects-section {
+    background: #f9f9f9;
+    padding: 60px 20px;
+  }
+
+  .projects-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+  }
+
+  .project-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+
+  .project-card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+
+  .project-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 10px;
+  }
+
+  .project-description {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .project-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0d6efd;
+    font-size: 0.95rem;
+  }
+
+  .project-link:hover {
+    text-decoration: underline;
+  }
+</style>
+
+  <!-- Bootstrap JS (Optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
