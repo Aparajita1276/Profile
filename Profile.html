@@ -136,8 +136,8 @@
     <h1 class="profile-name">Aparajita Nag</h1>
     <p class="profile-role">Student</p>
     <p class="profile-bio">
-        I am a second-year B.Tech CSE student studying at NSEC. 
-        I am passionate about music, chess, and digital painting, and love to learn new things to develop skillsets for this competitive world.
+        I am a second year B.Tech CSE student studying at NSEC. 
+        I am passionate about music, chess, digital painting and love to learn new things to develop skillsets for this competitive world.
     </p>
     <div class="social-icons mb-3">
       <a href="https://www.linkedin.com/in/aparajita-nag/" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -155,8 +155,8 @@
         <div class="education-title">Bachelor of Technology in Computer Science</div>
         <div class="education-school">Netaji Subhash Engineering College — 2024 to 2028 </div>
         <div class="education-description">
-          I am a 2nd-year student now. I have participated in 2 hackathons so far. One is the SAP HackFest during the month of April and the Internal SIH in the month of September. 
-          In both hackathons, I led the teams. I have good experience working with my teammates and learning new things. In the Internal SIH project, I made a small part of the website.
+          I am a 2nd year student now. I have participated in 2 hackathons till now. One is the SAP HackFest during the month of April and the Internal SIH in the month of September. 
+          In both the hackathons, I led the teams. I have good experience working with my team mates and learning new things. In the Internal SIH project, I made a small part of the website. 
           I developed skills in HTML, CSS, JavaScript, Bootstrap, and C programming. I am still developing skills and am eager to learn.
       </div>
       <div class="education-item">
@@ -169,24 +169,95 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
+<!-- Skills Section -->
+<section class="skills-section">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="skills-list">
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="skills-list">
+          <li>Python</li>
+          <li>C programming</li>
+          <li>Communication Skills</li>
+          <li>Leadership skills</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Add this CSS to your <style> section -->
+<style>
+  .skills-section {
+    background: #f9f9f9;
+    padding: 60px 20px;
+  }
+
+  .skills-section h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+  }
+
+  .skills-list {
+    list-style-type: disc;
+    padding-left: 20px; /* indentation for bullets */
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .skills-list li {
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 767px) {
+    .skills-list {
+      margin-bottom: 30px;
+    }
+  }
+</style>
+
 <!-- Projects Section -->
 <section class="projects-section">
   <div class="container">
     <h2>Projects</h2>
     <div class="row">
-      <div class="col-md-6 offset-md-3"> <!-- centers your single project -->
+      <!-- Project 1 -->
+      <div class="col-md-6">
         <div class="project-card">
-          <div class="project-title">Tic Tac Toe game</div>
+          <div class="project-title">Tic Tac Toe Game</div>
           <div class="project-description">
-            A small game made using Turtle graphics and different Python libraries
+            A small game made using Turtle graphics and different Python libraries.
           </div>
           <a href="https://github.com/Aparajita1276/TicTacToe" target="_blank" class="project-link">View Project</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6">
+        <div class="project-card">
+          <div class="project-title">Snake game</div>
+          <div class="project-description">
+            A simple modular Snake Game built with Python and Turtle graphics. 
+          </div>
+          <a href="https://github.com/Aparajita1276/Snake-Game" target="_blank" class="project-link">View Project</a>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- Add this CSS to your <style> section -->
 <style>
@@ -244,7 +315,4 @@
   <!-- Bootstrap JS (Optional) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
-
-
