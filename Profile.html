@@ -129,6 +129,28 @@
   </style>
 </head>
 <body>
+  <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">My Profile</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
   <!-- Profile Section -->
   <section class="profile-section">
@@ -137,7 +159,7 @@
     <p class="profile-role">Student</p>
     <p class="profile-bio">
         I am a second year B.Tech CSE student studying at NSEC. 
-        I am passionate about music, chess, digital painting and love to learn new things to develop skillsets for this competitive world.
+        I am passionate about different genres of music, chess, digital painting and love to learn new things to develop skillsets for this competitive world.
     </p>
     <div class="social-icons mb-3">
       <a href="https://www.linkedin.com/in/aparajita-nag/" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -148,18 +170,19 @@
   </section>
 
   <!-- Education Section -->
-  <section class="education-section">
+  <section id="education" class="education-section">
     <div class="container">
       <h2>Education</h2>
       <div class="education-item">
         <div class="education-title">Bachelor of Technology in Computer Science</div>
         <div class="education-school">Netaji Subhash Engineering College — 2024 to 2028 </div>
         <div class="education-description">
-          I am a 2nd year student now. I have participated in two hackathons so far. One is the SAP HackFest, held in April, and the Internal SIH, held in September. 
-          In both hackathons, I led the teams. I have good experience working with my teammates and learning new things. In the Internal SIH project, I contributed to the project by making a small part of the website. 
-          I developed skills in HTML, CSS, JavaScript, Bootstrap, and C programming. I am still developing skills and am eager to learn.
-          I participated in the weekly debates during September and October 2025, where I became the best speaker in the proposition stance. 
+          I am a 2nd year student now. I have participated in two hackathons so far. One is the SAP HackFest, held in April 2025, and the Internal SIH, held in September 2025. 
+          In both hackathons, I led the project teams. I have good experience working with my teammates and learning new things. In the Internal SIH project, my contribution to the project was by making a small part of the website. 
+          I developed skills in HTML, CSS, JavaScript, Bootstrap, Git and Github, and C programming. I am still developing skills and am eager to learn more.
+          I participated in the weekly debate events during September and October 2025, where in one of the events, I became the best speaker in the proposition stance. 
           I became the Class Representative in my section during both the 1st and 2nd Year. 
+
       </div>
       <div class="education-item">
         <div class="education-title">Secondary and Higher Secondary</div>
@@ -172,7 +195,7 @@
   </section>
 
 <!-- Skills Section -->
-<section class="skills-section">
+<section id= "skills" class="skills-section">
   <div class="container">
     <h2>Skills</h2>
     <div class="row">
@@ -182,6 +205,7 @@
           <li>JavaScript</li>
           <li>Bootstrap</li>
           <li>Responsive Design</li>
+          <li>Git and GitHub</li>
         </ul>
       </div>
       <div class="col-md-6">
@@ -231,7 +255,7 @@
 </style>
 
 <!-- Projects Section -->
-<section class="projects-section">
+<section id= "projects" class="projects-section">
   <div class="container">
     <h2>Projects</h2>
     <div class="row">
@@ -328,5 +352,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
 
