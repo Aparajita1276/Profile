@@ -160,10 +160,10 @@
     <p class="profile-bio">
         I am a second year B.Tech CSE student studying at NSEC. 
         I am passionate about different genres of music, chess, digital painting and love to learn new things to develop skillsets for this competitive world.
+        I also like to write poetries. I find it a way to portray the emotions that one faces in everyday life. 
     </p>
     <div class="social-icons mb-3">
       <a href="https://www.linkedin.com/in/aparajita-nag/" target="_blank"><i class="bi bi-linkedin"></i></a>
-      <a href="https://www.instagram.com/aparajitanag06?igsh=cWVlaDIxejk4dGph" target="_blank"><i class="bi bi-instagram"></i></a>
       <a href="https://github.com/Aparajita1276" target="_blank"><i class="bi bi-github"></i></a>
 
     </div>
@@ -177,11 +177,11 @@
         <div class="education-title">Bachelor of Technology in Computer Science</div>
         <div class="education-school">Netaji Subhash Engineering College — 2024 to 2028 </div>
         <div class="education-description">
-          I am a 2nd year student now. I have participated in two hackathons so far. One is the SAP HackFest, held in April 2025, and the Internal SIH, held in September 2025. 
-          In both hackathons, I led the project teams. I have good experience working with my teammates and learning new things. In the Internal SIH project, my contribution to the project was by making a small part of the website. 
-          I developed skills in HTML, CSS, JavaScript, Bootstrap, Git and Github, and C programming. I am still developing skills and am eager to learn more.
-          I participated in the weekly debate events during September and October 2025, where in one of the events, I became the best speaker in the proposition stance. 
-          I became the Class Representative in my section during both the 1st and 2nd Year. 
+          I am a 2nd year student now. I have participated in two hackathons so far. One is the SAP HackFest, held in April 2025, and the Internal SIH, held in September 2025. <br>
+          In both hackathons, I led the project teams. I have good experience working with my teammates and learning new things. In the Internal SIH project, my contribution to the project was by making a small part of the website.<br>
+          I developed skills in HTML, CSS, JavaScript, Bootstrap, Git and Github, and C programming. I am still developing skills and am eager to learn more. <br>
+          I participated in the weekly debate events during September and October 2025, where in one of the events, I became the best speaker in the proposition stance. <br>
+          I became the Class Representative in my section during both the 1st and 2nd Year. <br>
 
       </div>
       <div class="education-item">
@@ -293,22 +293,37 @@
         </div>
       </div>
     </div>
-  </div>
-  
       <!--Project 3 -->
       <div class="col-md-6">
           <div class="project-card">
             <div class="project-title">Memory Game</div>
-              <div class="project-description">
+            <div class="project-description">
                 A simple 4x4 memory matching game built with Python Turtle graphics, where players flip tiles to find pairs and win the game. 
-              </div>
+             </div>
             <a href="https://github.com/Aparajita1276/Memory-Game" target="_blank" class="project-link">View Project</a>
           </div>
       </div>
+      <!--Project 4 -->
+      <div class="col-md-6">
+          <div class="project-card">
+            <div class="project-title">Hotel Booking System</div>
+            <div class="project-description">
+                Frontend interface for a hotel booking system with modern design.
+            </div>
+            <a href="https://github.com/Aparajita1276/Hotel-Booking-System" target="_blank" class="project-link">View Project</a>
+          </div>
+      </div>
+  </div>
 </section>
 
 <!-- Add this CSS to your <style> section -->
 <style>
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);;
+    gap: 20px;
+    padding: 20px;
+  }
   .projects-section {
     background: #a1dae6;
     padding: 60px 20px;
@@ -325,8 +340,8 @@
   .project-card {
     background: #f0f1f1;
     border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 15px;
     margin-bottom: 30px;
     transition: box-shadow 0.2s ease-in-out;
   }
